@@ -1,0 +1,65 @@
+/* *{
+    background-color: black;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    background-color: red; 
+ }
+
+ /* h1{
+    background-color: darkblue;
+ }
+ a{
+    background-color: darkblue;
+}
+h3{
+    background-color: darkblue;
+} */
+
+
+h1,a,h3{
+    background-color: darkblue;
+}
+
+/* div ul li{
+    background-color: cyan;
+} */
+
+
+
+
+
+
+h2{
+    color: aliceblue;
+}
+
+#paragraph2{
+    background-color: green;
+    font-size: 30px;
+}
+
+.para{
+    background-color: blue;
+}
+
+p{
+    background-color: cyan; 
+ }
+
+ #paragraph2{
+    background-color: yellow;
+    font-size: 50px;
+}
+
+h1,.para,#paragraph2{
+    background-color: green;
+}  
+
+div > ul > li{
+    background-color: bisque;
+}

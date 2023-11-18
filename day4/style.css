@@ -1,0 +1,77 @@
+.sibling-element{
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid red;
+}
+
+.main-element{
+    /* position: static; */
+    /* position: absolute; */
+    position: sticky;
+    top: 40px;
+    /* bottom: 10px; */
+    background-color: yellow;
+    padding: 10px;
+}
+
+.parent-element{
+    position: relative;
+    height: 800px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+/* body{
+    position: relative;
+} */
+
+/* html{
+    height: 1500px;
+} */
+
+div{
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    
+}
+
+div:hover{
+    /* color: cyan; */
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    padding: 2px;
+}
+
+p::first-line{
+    background-color: aquamarine;
+    color: red;
+}
+
+#first{
+    background-color: orange;
+    top: 10px;
+    left: 10px;
+}
+#second{
+    background-color: green;
+    top: 30px;
+    left: 30px;
+    /* z-index: -1; */
+}
+#third{
+    background-color: black;
+    top: 50px;
+    left: 50px;
+    /* z-index: -2; */
+}
+#fourth{
+    background-color: red;
+    top: 70px;
+    left: 70px;
+    /* z-index: -3; */
+}

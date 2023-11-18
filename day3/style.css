@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Sofia+Sans:wght@1&display=swap'); */
+
+
+
+#heading1{
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: cyan; */
+
+    /* border: 2px solid cyan; */
+    /* border-left: 4px solid cyan;
+     */
+     border-bottom: 4px solid cyan;
+     border-left: 6px dotted red;
+     border-top: 8px dashed blue;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 5px solid brown;
+}
+
+#heading2{
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration: underline cyan 10px; */
+    text-decoration-color: cyan;
+    text-decoration-thickness: 10px;
+    text-decoration-line: overline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#para1{
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 10px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    font-family: 'Trirong', sans-serif;
+}
+
+ul{
+    list-style-type: square;
+    list-style-image: url('../day2/pykara.avif');
+    /* border: 2px solid red; */
+    list-style-position: inside;
+
+    /* list-style: square outside url('../day2/pykara.avif'); */
+}
+
+li{
+    border: 2px solid red;
+}
+
+table{
+    border-left: 4px dashed cyan;
+}
+th, td{
+    text-align: center;
+}
+th, td{
+    border-bottom: 1px solid red;
+    border-left: 1px solid green;
+}
+td{
+    height: 30px;
+    width: 60px;
+    vertical-align: top;
+}
