@@ -1,0 +1,30 @@
+:root{
+    --voilet:tomato;
+    --white:#FFFFFF;
+    --font_size:2rem;
+    --font_weight:bold;
+}
+
+body{
+    background-color: var(--voilet);
+}
+
+h2{
+    border-bottom:2px solid var(--voilet);
+    font-size: var(--font_size);
+    font-weight: var(--font_weight);
+}
+
+.conatiner{
+    color: var(--voilet);
+    background-color: var(--white);
+    padding: 20px;
+}
+
+button{
+    background-color: var(--white);
+    color: var(--voilet);
+    border: 2px solid var(--voilet);
+    padding: 10px;
+    font-size: var(--font_size);
+}

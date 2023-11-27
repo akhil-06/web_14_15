@@ -97,7 +97,7 @@ hr{
 
 .quote{
     color: #00beef;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     font-family: 'Raleway';
 }
@@ -116,4 +116,43 @@ hr{
     font-size: 5rem;
     margin-right: 0.5rem;
     float: left;
+}
+
+.text-with-images{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+}
+
+.lists{
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.lists li{
+    margin-bottom: 2rem;
+}
+
+.list-title{
+    color: #00beef;
+}
+
+.lists h4{
+    color: #00beef;
+}
+
+.image-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    grid-template-rows: repeat(3, min-content)
+}
+
+
+.img-1, .img-3{
+grid-column: 1/-1;
+}
+.text{
+    font-size: 1.6rem;
 }
